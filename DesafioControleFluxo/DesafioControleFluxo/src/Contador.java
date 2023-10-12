@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) {
 
+        //Adicionei o try catch para pegar exceção também no input do usuário
         try {
             Scanner terminal = new Scanner(System.in);
             System.out.println("Digite o primeiro parâmetro");
